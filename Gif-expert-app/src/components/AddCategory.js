@@ -8,7 +8,6 @@ const AddCategory = ({setCat}) => {
 
   const addNameChange = (e) => {
     setAddName(e.target.value);
-    console.log(e.target.value);
     setCat(e.target.value);
     
   }
